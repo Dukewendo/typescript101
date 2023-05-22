@@ -1,10 +1,12 @@
-var character = 'potato-face';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-inputs.forEach(function (input) {
-    console.log(input);
-});
-var circ = function (diamater) {
-    return diamater * Math.PI;
+var names = ['titty', 'tommy', 'terry'];
+var numbers = [10, 34, 23, 45];
+numbers.push(45);
+console.log(numbers);
+//objects
+var tim = {
+    name: "mad-max",
+    belt: "black",
+    age: 23
 };
-console.log(circ(8));
+
+console.log(tim)

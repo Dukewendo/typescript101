@@ -1,15 +1,16 @@
-const character = 'potato-face';
+let names = ['titty', 'tommy', 'terry']
 
-console.log(character);
+let numbers = [10, 34, 23, 45]
 
-const inputs = document.querySelectorAll('input');
+numbers.push(45)
 
-inputs.forEach(input => {
-  console.log(input);
-});
+console.log(numbers)
 
-const circ = (diamater: number) => {
-  return diamater * Math.PI;
+
+//objects
+
+let tim = {
+  name: "mad-max",
+  belt: "black",
+  age: 23
 }
-
-console.log(circ(8));
